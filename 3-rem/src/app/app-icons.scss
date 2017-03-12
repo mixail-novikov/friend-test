@@ -1,0 +1,13 @@
+ion-icon {
+  &[name="google-calendar"] {
+    content: url(../assets/icons/google-calendar.svg);
+  }
+
+  &[name="weather"] {
+    content: url(../assets/icons/weather.svg);
+  }
+
+  &[name="morning-exercises"] {
+    content: url(../assets/icons/morning-exercises.svg);
+  }
+}
