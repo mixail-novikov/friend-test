@@ -1,0 +1,25 @@
+<ion-header no-border>
+  <ion-navbar no-border>
+    <button ion-button menuToggle>
+      <ion-icon class="menu-icon" name="menu"></ion-icon>
+    </button>
+    <ion-title>Plugins</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="plugins">
+    <div class="plugins__row" *ngFor="let pluginsRow of plugins">
+      <div class="plugins__col" *ngFor="let plugin of pluginsRow">
+        <div class="plugin-icon">
+          <div class="plugin-icon__icon">
+            <ion-icon [attr.name]="plugin.icon"></ion-icon>
+          </div>
+          <div class="plugin-icon__text">
+            {{ plugin.name }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

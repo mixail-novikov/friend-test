@@ -1,0 +1,57 @@
+page-page2 {
+  .header {
+    background-color: rgb(194, 28, 23);
+  }
+
+  .content {
+    background-color: rgb(232, 233, 232);
+
+    &, .scroll-content {
+      padding: 2vw;
+    }
+  }
+
+  .plugins {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 1vw 0;
+
+    &__row {
+      display: flex;
+      padding: 0 2vw;
+    }
+
+    &__col {
+      padding: 2vw;
+      height: 31vw;
+      flex: 1 1 0;
+    }
+  }
+
+  .plugin-icon {
+    border: 1px solid rgb(179, 179, 179);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+
+    &__icon {
+      height: 16vw;
+      display: flex;
+      align-items: center;
+
+      ion-icon {
+        height: 10vw;
+      }
+    }
+
+    &__text {
+      font-size: 3vw;
+      text-align: center;
+    }
+  }
+}

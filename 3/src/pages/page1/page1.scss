@@ -1,0 +1,25 @@
+page-page1 {
+  background-color: rgb(253, 106, 122);
+
+  .content {
+    background: transparent;
+  }
+
+  .scroll-content {
+    margin-top: 0!important;
+  }
+
+  .invatation {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+    &__content {
+      text-align: center;
+      font-size: 10vw;
+      color: white;
+    }
+  }
+}
